@@ -7,7 +7,7 @@ sudo docker run -d -p 9200:9200 elasticsearch-analysis-lemmagen
 ```
 Open and enjoy :) - `http://localhost:9200/`
 
-### Installation into a project (Syluus).
+### Installation into a project (Sylius).
 1. `cd project_path/assets && sudo mkdir lexicons && cd lexicons && wget https://github.com/vhyza/lemmagen-lexicons/raw/master/free/lexicons/uk.lem`
 2. Open `config/packages/fos_elastica.yaml`
 3. Replace all `nGram` with `ngram`.
